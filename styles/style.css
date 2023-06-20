@@ -7,87 +7,70 @@
   src: url('../fonts/personal.ttf');
 }
 body{
-  background-color: black;
+  background-color: rgba(0,0,0,.3);
+  width: 100vw;
+  overflow-x: hidden;
+  border: 5px solid red; 
+}
+
+div.title{
+  width: 100%;
+  border: 3px soild green ; 
 }
 h1.title{
   color: white;
   font-family: font1;
-  position: absolute;
-  top: 100px;
-  left: 100px;
   font-size: 70px;
 }
 img.title{
-  position: absolute;
   width: 450px;
-  top: 270px;
-  left: 950px;
+
 }
-h1.aboutus{
+div.about-us h1.title{
   color: white;
   font-family: font1;
-  position: absolute;
-  top: 900px;
-  left: 950px;
+
   font-size: 70px;
 }
-h2.aboutus{
+div.about-us h2.subtitle{
   color: white;
   font-family: font1;
-  position: absolute;
-  top: 1300px;
-  left: 100px;
+
   font-size: 25px;
 }
 h1.vehicles{
   color: white;
   font-family: font1;
-  position: absolute;
-  top: 1750px;
-  left: 100px;
+
   font-size: 70px;
 }
 img.bmw{
-  position: absolute;
   width: 500px;
-  top: 2000px;
-  left: 90px;
+
 }
 img.bmww{
-  position: absolute;
   width: 400px;
-  top: 2035px;
-  left: 575px;
+
 }
 img.bmwww{
-  position: absolute;
   width: 375px;
-  top: 2000px;
-  left: 1000px;
+
 }
 h1.motorcycles{
   color: white;
   font-family: font1;
-  position: absolute;
-  top: 2500px;
-  left: 950px;
+
   font-size: 70px;
 }
 img.bmwm{
-  position: absolute;
   width: 500px;
-  top: 3000px;
-  left: 30px;
+
 }
 img.bmwmm{
-  position: absolute;
   width: 500px;
-  top: 3020px;
-  left: 508px;
+
 }
 img.bmwmmm{
-  position: absolute;
   width: 550px;
-  top: 3000px;
-  left: 965px;
+
 }
