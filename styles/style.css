@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: font1;
-  src: url(./TheGlobePersonalUseBold-2ORlw.ttf);
+  src: url('../fonts/personal.ttf');
 }
 body{
   background-color: black;
